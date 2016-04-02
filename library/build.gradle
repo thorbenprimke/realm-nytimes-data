@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 23
@@ -20,7 +21,6 @@ android {
 
 dependencies {
     compile 'com.android.support:recyclerview-v7:23.1.1'
-    compile 'io.realm:realm-android:0.87.1'
     compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
     compile 'com.squareup.retrofit:converter-jackson:2.0.0-beta2'
 }
